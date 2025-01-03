@@ -4,16 +4,28 @@
   "type": "module",
   "description": "Auto referrals, auto register accounts, auto increase points, rotate proxy.",
   "main": "main.js",
-  "scripts": {},
+  "scripts": {
+    "start": "node main.js",
+    "setup": "node setup.js",
+    "autoreff": "node autoreff.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/questairdrop/Open-loop.git"
+  },
   "keywords": [
     "openloop",
     "openloop-bot"
   ],
+  "author": "@questairdrop",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/questairdrop/Open-loop/issues"
+  },
+  "homepage": "https://github.com/questairdrop/Open-loop#readme",
   "dependencies": {
     "@cemalgnlts/mailjs": "^3.0.1",
     "chalk": "^5.3.0",
-    "dotenv": "^16.4.7",
     "fs": "^0.0.1-security",
     "https-proxy-agent": "^7.0.5",
     "node-fetch": "^3.3.2",
