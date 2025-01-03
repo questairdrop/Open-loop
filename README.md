@@ -55,13 +55,13 @@ put your proxy in file `proxy.txt` format `http://username:pass@ip:port`
    ```bash
    nano .env
    ```
-4. Setup to create accounts and get Tokens:
+4. Run Using Proxy:
    ```bash
-   npm run setup
+   node openloop-proxy.js
    ```
-5. Run The Script:
+5. Run No Proxy:
    ```bash
-   npm run start
+   node openloop.js
    ```
 6. Auto reff using temp mail
    ```bash
