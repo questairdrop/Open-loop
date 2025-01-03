@@ -51,7 +51,7 @@ put your proxy in file `proxy.txt` format `http://username:pass@ip:port`
    ```bash
    npm install
    ```
-3. your ref id in .env file eg: REF_ID='olb623a000':
+3. your ref id in .env file: REF_ID='olb623a000':
    ```bash
    nano .env
    ```
@@ -63,7 +63,15 @@ put your proxy in file `proxy.txt` format `http://username:pass@ip:port`
    ```bash
    node openloop.js
    ```
-6. Auto reff using temp mail
+6. Setup to create accounts and get Tokens:
+   ```bash
+   npm run setup
+   ```
+7. Run The Script:
+   ```bash
+   npm run start
+   ```
+8. Auto reff using temp mail
    ```bash
    npm run autoreff
 
