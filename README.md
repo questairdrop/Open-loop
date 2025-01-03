@@ -51,7 +51,7 @@ put your proxy in file `proxy.txt` format `http://username:pass@ip:port`
    ```bash
    npm install
    ```
-3. your ref id in .env file: REF_ID='olb623a000':
+3. your ref id in .env file eg: REF_ID='olb623a000':
    ```bash
    nano .env
    ```
@@ -67,9 +67,9 @@ put your proxy in file `proxy.txt` format `http://username:pass@ip:port`
    ```bash
    npm run setup
    ```
-7. Run The Script:
+7. Run Take Token:
    ```bash
-   npm run start
+   node getToken.js
    ```
 8. Auto reff using temp mail
    ```bash
